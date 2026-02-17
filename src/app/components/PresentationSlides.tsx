@@ -716,7 +716,7 @@ export function PresentationSlides() {
           <div className="flex flex-col justify-center">
             <div className="h-full rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1655827509516-920cd52d912a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwdHJhZGl0aW9uYWwlMjBndXpoZW5nJTIwaW5zdHJ1bWVudHxlbnwxfHx8fDE3NzExODg1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://tse3.mm.bing.net/th/id/OIP.T1EUD7XU4AZPYslPQEb60AHaEm?cb=defcachec2&rs=1&pid=ImgDetMain&o=7&rm=3"
                 alt="Guzheng"
                 className="w-full h-full object-cover"
               />
@@ -844,7 +844,7 @@ export function PresentationSlides() {
           <div className="flex flex-col justify-center items-center">
             <div className="w-full rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1545947288-c22ade2af79d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwZXJodSUyMGluc3RydW1lbnQlMjBtdXNpY2lhbnxlbnwxfHx8fDE3NzExODg1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://chinamusicsphere.com/wp-content/uploads/2025/06/Erhu.webp"
                 alt="Erhu"
                 className="w-full h-auto max-h-[520px] object-cover"
               />
@@ -864,7 +864,7 @@ export function PresentationSlides() {
           <div className="flex flex-col justify-center">
             <div className="h-full rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1762006211581-3c705aba617b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwcGlwYSUyMGluc3RydW1lbnQlMjB0cmFkaXRpb25hbHxlbnwxfHx8fDE3NzExODg1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://th.bing.com/th/id/R.937d2744d9de1058aa17b07eb103811a?rik=oVXi4816XC8BvA&riu=http%3a%2f%2fwww.dhresource.com%2falbu_294396914_00-1.0x0%2fchinese-pipa-instrument-chinese-pipa-lute.jpg&ehk=ig55QJgE1PebQLWNX26818Vjz%2f8%2fb58BVY8zlCH%2fFXg%3d&risl=&pid=ImgRaw&r=0"
                 alt="Pipa"
                 className="w-full h-full object-cover"
               />
@@ -976,18 +976,10 @@ export function PresentationSlides() {
           </div>
 
           <div className="flex flex-col justify-center space-y-6">
-            <div className="h-96 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="h-192 rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1558299244-f4bb4dd735b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwZGl6aSUyMGJhbWJvbyUyMGZsdXRlfGVufDF8fHx8MTc3MTE4ODU3OHww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://tse2.mm.bing.net/th/id/OIP.v9wHrO9dxx6vS1zSNJmNtQHaEt?cb=defcachec2&rs=1&pid=ImgDetMain&o=7&rm=3"
                 alt="Dizi"
-                className="w-full h-full object-cover"
-              />
-            </div>
-
-            <div className="h-64 rounded-2xl overflow-hidden shadow-2xl">
-              <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1720625922851-0cc03e1f65eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYW1ib28lMjBmb3Jlc3QlMjBuYXR1cmUlMjBjaGluYXxlbnwxfHx8fDE3NzExODg4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Bambuswald"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -1598,7 +1590,7 @@ export function PresentationSlides() {
         <div className="flex items-center gap-4">
           <Music className="w-10 h-10 text-red-600" />
           <div>
-            <h1 className="text-2xl font-bold text-gray-800">Klassische Chinesische Musik</h1>
+            <h1 className="text-2xl font-bold text-gray-800">Klassische Chinesische Musik {currentSlide === 1 ? "- Musik Psychose" : ""}</h1>
             <p className="text-sm text-gray-500">{slides[currentSlide].title}</p>
           </div>
         </div>
