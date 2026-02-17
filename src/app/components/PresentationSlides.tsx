@@ -177,8 +177,8 @@ export function PresentationSlides() {
           <div className="flex flex-col gap-6 justify-center">
             <div className="h-96 rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1689659336446-d16d64aa3625?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwYW5jaWVudCUyMHRlbXBsZSUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzExODg4NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Antike chinesische Architektur"
+                src="https://upload.wikimedia.org/wikipedia/commons/8/87/%E5%92%8C%E6%BC%A2%E6%B4%8B%E5%8D%81%E4%BA%8C%E9%9F%B3%E5%BE%8B%E5%AF%BE%E7%85%A7%E8%A1%A8_1909%E5%B9%B4_%E9%9F%B3%E5%90%8D%E3%83%BB%E9%9A%8E%E5%90%8D.jpg"
+                alt="Gongche Notationssystem"
                 className="w-full h-full object-cover"
               />
             </div>
